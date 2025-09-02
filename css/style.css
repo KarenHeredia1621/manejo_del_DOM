@@ -9,35 +9,35 @@ section{
 }
 h2{
     margin-bottom: 10px;
-    color: #333;
+    color: #1e1e1e;
 
 }
 .caja{
-    border: 2px solid #333;
+    border: 2px solid #686868;
     padding: 15px;
     margin: 10px 0;
     border-radius: 8px;
-    border-color: #0e6a0ff5;
+    border-color: #b09dddf5;
 
 }
 .caja.active{
     border-radius: 100px;
 }
 .caja-destacada{
-    border-color: rgb(8, 25, 21);
+    border-color: rgb(101, 101, 101);
     background-color: #d1e7dd;
 
 }
 .boton{
     display: inline-block;
     padding: 10px 15px;
-    background: #007bff;
+    background: #b09dddf5;
     color: white;
     border-radius: 5px;
     cursor: pointer;
 }
 .boton[disable] {
-    background: gray;
+    background: rgb(139, 139, 139);
     cursor: not-allowed;
 }
 img{

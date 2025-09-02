@@ -16,7 +16,7 @@ estilo_clase.textContent = "manipulacion de estilos ccss y clases"
 
 cajita.forEach((caja, index) => {
     caja.textContent = 'caja multiple' + index;
-    caja.style.color = "red"
+    caja.style.color = "pink"
     caja.style.fontSize = "45px";
     caja.style.textAlign = "center"
 })
