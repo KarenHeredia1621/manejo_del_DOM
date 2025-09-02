@@ -1,0 +1,47 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+
+}
+section{
+    margin-bottom: 40px;
+
+}
+h2{
+    margin-bottom: 10px;
+    color: #333;
+
+}
+.caja{
+    border: 2px solid #333;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border-color: #0e6a0ff5;
+
+}
+.caja.active{
+    border-radius: 100px;
+}
+.caja-destacada{
+    border-color: rgb(8, 25, 21);
+    background-color: #d1e7dd;
+
+}
+.boton{
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton[disable] {
+    background: gray;
+    cursor: not-allowed;
+}
+img{
+    min-width: 150px;
+    display: block;
+    margin-top: 10px;
+}
